@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "asbuild": "asc index.ts --use abort=index/abort --outFile as.wasm "
+  },
+  "devDependencies": {
+    "assemblyscript": "^0.14.10"
+  }
+}
